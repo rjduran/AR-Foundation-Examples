@@ -23,8 +23,12 @@ Change the following build settings under _Player > Other Settings_. These won't
 | Architecture          | ARM64 |
 | Camera Usage Description | Enable to use AR Foundation |
 
+**Development Environment**
 
-
+* Unity 2019.3.X
+* Xcode 11.4
+* iOS 13.4 (ARKit 3.5)
+* A recent iOS device supporting ARKit 3.5
 
 
 
