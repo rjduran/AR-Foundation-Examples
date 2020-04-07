@@ -13,9 +13,9 @@ To add a package to a Unity project: _Window > Package Manager_; Locate correct 
 
 **Build Settings**
 
-Change the following build settings under _Player > Other Settings_. These won't vary much but be sure to give each app a unique bundle identifier string in Unity or in Xcode before building.
+Switch platform to iOS and proceed. Change the following build settings under _File > Build Settings > Player Settings...Player > Other Settings_. Be sure to give each app a unique bundle identifier string in Unity or in Xcode before building.
 
-| Package               | Version                   |
+| Setting               | Value                   |
 |-----------------------|---------------------------|
 | Bundle Identifier     | studio.cmci.make.ARFoundation |
 | Automatically Sign    | Checked |
@@ -25,6 +25,7 @@ Change the following build settings under _Player > Other Settings_. These won't
 
 **Development Environment**
 
+* macOS 10.15 (Catalina)
 * Unity 2019.3.X
 * Xcode 11.4
 * iOS 13.4 (ARKit 3.5)
